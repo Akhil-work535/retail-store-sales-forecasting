@@ -1,26 +1,22 @@
 
 # Sales Forecasting for Retail Stores
+Accurate sales forecasting is vital for retail businesses to optimize inventory, staffing, and marketing strategies. This project analyzes historical sales data to predict future sales trends using time series and machine learning techniques. The forecasts help retailers make data-driven decisions, minimize stockouts or overstock, and maximize revenue and operational efficiency.
 
 ##  Business Problem
 Retail sales fluctuate due to holidays, economic factors, and fuel prices.  
 Forecasting helps plan inventory and staffing efficiently.
-
-**Goal:** Build a time series forecasting model to predict future weekly sales per store.
-
----
 
 ##  Business Objectives
 1. Analyze historical data for seasonality and trends.  
 2. Create a reliable sales forecast model.  
 3. Provide insights for resource and stock optimization.
 
----
 
 ##  Dataset Overview
 **Source:** [Walmart Store Sales Forecasting Dataset](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting)  
 **Columns:** Store, Date, Weekly_Sales, Holiday_Flag, Temperature, Fuel_Price, CPI, Unemployment
 
----
+
 
 ##  Data Preparation
 - Converted `Date` to datetime.  
@@ -28,7 +24,7 @@ Forecasting helps plan inventory and staffing efficiently.
 - Created month, week, year, and holiday indicators.  
 - Aggregated by store for stability.
 
----
+
 
 ## Workflow
 
@@ -40,7 +36,7 @@ C --> D[Forecasting Model]
 D --> E[Evaluation]
 E --> F[Dashboard]
 ```
----
+
 
 ## Forecasting Model
 | Metric |	Value |
@@ -48,7 +44,7 @@ E --> F[Dashboard]
 | MAE |	1852 |
 | RMSE |	2440 |
 
----
+
 
 ## Power BI Dashboard Highlights
 
@@ -60,7 +56,7 @@ E --> F[Dashboard]
 
 - KPI cards for total and forecasted revenue
 
----
+
 
 ## Business Insights
 
@@ -74,7 +70,7 @@ E --> F[Dashboard]
 
 Python | Prophet | pandas | matplotlib | Power BI
 
----
+
 
 ## Business Analytics Extension
 
